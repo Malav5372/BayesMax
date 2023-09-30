@@ -11,18 +11,6 @@
 Pure Python implementation of bayesian global optimization with gaussian
 processes.
 
-* PyPI (pip):
-
-```console
-$ pip install bayesian-optimization
-```
-
-* Conda from conda-forge channel:
-
-```console
-$ conda install -c conda-forge bayesian-optimization
-```
-
 This is a constrained global optimization package built upon bayesian inference
 and gaussian process, that attempts to find the maximum value of an unknown
 function in as few iterations as possible. This technique is particularly
@@ -284,20 +272,6 @@ Installation
 
 ### Installation
 
-The latest release can be obtained by two ways:
-
-* With PyPI (pip):
-
-      pip install bayesian-optimization
-
-* With conda (from conda-forge channel):
-
-      conda install -c conda-forge bayesian-optimization
-
-The bleeding edge version can be installed with:
-
-    pip install git+https://github.com/fmfn/BayesianOptimization.git
-
 If you prefer, you can clone it and run the setup.py file. Use the following
 commands to get a copy from Github and install all dependencies:
 
@@ -305,19 +279,6 @@ commands to get a copy from Github and install all dependencies:
     cd BayesianOptimization
     python setup.py install
 
-Citation
-============
-
-If you used this package in your research and is interested in citing it here's how you do it:
-
-```
-@Misc{,
-    author = {Fernando Nogueira},
-    title = {{Bayesian Optimization}: Open source constrained global optimization tool for {Python}},
-    year = {2014--},
-    url = " https://github.com/fmfn/BayesianOptimization"
-}
-```
 
 # Dependencies
 * Numpy
