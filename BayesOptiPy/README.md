@@ -4,8 +4,6 @@
 
 I am excited to present "BayesMax" , an ambitious and advanced project that represents a deeply personal research interest I pursued during my undergraduate studies. Through this endeavor, I sought to maximize efficiency and performance across diverse domains, all while navigating the challenging landscape of my undergraduate education.
 
-goig to be released
-
 so lets dive into the Project!
 
 ## Project Concepts and Overview:
