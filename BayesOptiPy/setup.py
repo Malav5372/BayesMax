@@ -2,12 +2,12 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='bayesian-optimization',
+    name='Bayes-Max',
     version="1.4.3",
-    url='https://github.com/fmfn/BayesianOptimization',
+    url='https://github.com/Malav5372/BayesMax',
     packages=find_packages(),
-    author='Fernando Nogueira',
-    author_email="fmfnogueira@gmail.com",
+    author='Malav Patel',
+    author_email="malavpatel038@gmail.com",
     description='Bayesian Optimization package',
     long_description="A Python implementation of global optimization with gaussian processes.",
     python_requires='>= 3.7',
