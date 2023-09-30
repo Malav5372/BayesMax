@@ -14,7 +14,7 @@ suited for optimization of high cost functions, situations where the balance
 between exploration and exploitation is important.
 
 ## Quick Start
-See below for a quick tour over the basics of the Bayesian Optimization package. More detailed information, other advanced features, and tips on usage/implementation can be found in the [examples](https://github.com/Malav5372/BayesOptiPy/examples) folder. I suggest that you:
+See below for a quick tour over the basics of the Bayesian Optimization package. More detailed information, other advanced features, and tips on usage/implementation can be found in the [examples](https://github.com/Malav5372/BayesMax/tree/6d90d65706aa76658f5ff6c932c708e62ea248fe/BayesOptiPy/examples) folder. I suggest that you:
 - Follow the
 [basic tour notebook](https://github.com/Malav5372/BayesOptiPy/examples/basic-tour.ipynb)
 to learn how to use the package's most important features.
