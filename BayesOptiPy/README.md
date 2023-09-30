@@ -19,7 +19,7 @@ See below for a quick tour over the basics of the Bayesian Optimization package.
 [basic tour notebook](https://github.com/Malav5372/BayesMax/blob/a15b1d990e17b1a31c0fa96757aa420d7a947b1c/BayesOptiPy/examples/basic-tour.ipynb)
 to learn how to use the package's most important features.
 - Take a look at the
-[advanced tour notebook]()
+[advanced tour notebook](https://github.com/Malav5372/BayesMax/blob/dbde2fce62226b4b802d6b353ea732b7d2c89e98/BayesOptiPy/examples/advanced-tour.ipynb)
 to learn how to make the package more flexible, how to deal with categorical parameters, how to use observers, and more.
 - Check out this
 [notebook](https://github.com/fmfn/BayesianOptimization/blob/master/examples/visualization.ipynb)
