@@ -22,7 +22,7 @@ to learn how to use the package's most important features.
 [advanced tour notebook](https://github.com/Malav5372/BayesMax/blob/dbde2fce62226b4b802d6b353ea732b7d2c89e98/BayesOptiPy/examples/advanced-tour.ipynb)
 to learn how to make the package more flexible, how to deal with categorical parameters, how to use observers, and more.
 - Check out this
-[notebook](https://github.com/fmfn/BayesianOptimization/blob/master/examples/visualization.ipynb)
+[notebook](https://github.com/Malav5372/BayesMax/blob/d998dff2d424d21ba6e97ca6fdb612cdd7931117/BayesOptiPy/examples/visualization.ipynb)
 with a step by step visualization of how this method works.
 - To understand how to use bayesian optimization when additional constraints are present, see the
 [constrained optimization notebook](https://github.com/fmfn/BayesianOptimization/blob/master/examples/constraints.ipynb).
