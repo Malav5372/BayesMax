@@ -8,11 +8,56 @@ so lets dive into the Project!
 
 ## Project Overview:
 
+In certain applications the objective function is expensive or difficult to evaluate. In these situations, a general approach consists in creating a simpler surrogate model of the objective function which is cheaper to evaluate and will be used instead to solve the optimization problem. Moreover, due to the high cost of evaluating the objective function, an iterative approach is often recommended. Iterative optimizers work by iteratively requesting evaluations of the function at a sequence of points in the domain. Bayesian Optimization adds a Bayesian methodology to the iterative optimizer paradigm by incorporating a prior model on the space of possible target functions. 
 At the core of BayesMax is the concept of Bayesian optimization, a sophisticated technique that constructs a posterior distribution of functions, often modeled as a Gaussian process. This distribution encapsulates the essence of the target function and continually improves as more observations are made. As a result, the algorithm becomes progressively certain about which regions within the parameter space merit exploration and which do not.
+
+Bayesian Optimization is a class of iterative optimization methods that focuses on the general optimization setting, where a description of 𝒳 is available, but knowledge of the properties of f is limited. Bayesian Optimization methods are characterized by two features:
+
+the surrogate model f ̂, for the function f, and an acquisition function computed from the surrogate and used for guiding the selection of the next evaluation point
+BO adds a Bayesian methodology to the iterative optimizer paradigm by incorporating a prior model on the space of possible target functions, f. By updating this model every time time a function evaluation is reported, a Bayesian optimization routine keeps a posterior model of the target function f. This posterior model is the surrogate f ̂ for the function f. The pseudo code for a Bayesian Optimization routine with a GP prior is:
+
+Initialisation:
+• Place a Gaussian process prior on f
+• Observe f at n0 points according to an initial space-filling experimental design.
+
+• Set n at n0
+
+While n ≤ N do:
+
+Update the posterior probability distribution on f using all available data
+Identify the maximiser xn of the acquisition function over 𝒳, where the acquisition function is calculated using the current posterior distribution
+Observe yn = f (xn)
+Increment n
+End while
+
+Return either the point evaluated with the largest f (x) or the point with the largest posterior mean.
+
+An example of a standard acquisition function is the Expected Improvement Criterion (EI), which, for any given point in x ∈ 𝒳 is the expected improvement in the value of f at x over the best value of f yet seen, given that the function f at x is indeed higher than the best value of f yet seen: so if we are finding the maxima of f, EI can be written as:
+
+E I (x) = 𝔼(max( f (x) − f *,0))
+
+where f * is the maximum value of f seen so far.
+
+Additional examples of acquisition functions are:
+
+1. Entropy search which consists in seeking to minimise the uncertainty we have in the location of the optimal value
+2. Upper confidence bound
+3. Expected loss criterion
 
 Bayesian optimization, an innovative technique that combines the power of statistics and machine learning to maximize outcomes. At its core, this project leverages Gaussian processes, a robust tool for approximating and optimizing complex and costly objective functions.
 
 ![image](https://github.com/Malav5372/BayesMax/assets/144440737/afadf501-ea7d-4e12-85ce-e7ca41cf2b1e)
+
+Gaussian Processes
+Gaussian Processes (GPs) provide a rich and flexible class of non-parametric statistical models over function spaces with domains that can be continuous, discrete, mixed, or even hierarchical in nature. Furthermore, the GP provides not just information about the likely value of f, but importantly also about the uncertainty around that value.
+
+The idea behind Gaussian Process Regression is for a set of observed values FN at some points XN we assume that these values correspond to the realisation of a multivariate Gaussian Process with a prior distribution:
+
+![image](https://github.com/Malav5372/BayesMax/assets/144440737/1fc18c7f-bebf-41a8-b80a-4d3c6e738471)
+
+where KN is a NxN covariance matrix and its coefficients are expressed in terms of a correlation function (or kernel) Kmn =K(xm,xn,θ). The hyper- parameters θ of the kernel are calibrated according to a maximum likelihood principle. KN is chosen to reflect a prior assumption of the function and therefore the choice of the kernel will have a significant impact on the correctness of the regression.
+
+
 
 # Bayesian Optimization
 
