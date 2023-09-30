@@ -271,7 +271,7 @@ Installation
 If you prefer, you can clone it and run the setup.py file. Use the following
 commands to get a copy from Github and install all dependencies:
 
-    git clone https://github.com/fmfn/BayesianOptimization.git
+    git clone https://github.com/Malav5372/BayesMax.git
     cd BayesianOptimization
     python setup.py install
 
