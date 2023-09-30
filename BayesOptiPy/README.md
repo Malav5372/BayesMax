@@ -8,7 +8,7 @@ goig to be released
 
 so lets dive into the Project!
 
-## Project Overview:
+## Project Concepts and Overview:
 
 In certain applications the objective function is expensive or difficult to evaluate. In these situations, a general approach consists in creating a simpler surrogate model of the objective function which is cheaper to evaluate and will be used instead to solve the optimization problem. Moreover, due to the high cost of evaluating the objective function, an iterative approach is often recommended. Iterative optimizers work by iteratively requesting evaluations of the function at a sequence of points in the domain. Bayesian Optimization adds a Bayesian methodology to the iterative optimizer paradigm by incorporating a prior model on the space of possible target functions. 
 
