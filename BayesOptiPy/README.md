@@ -4,6 +4,10 @@
 
 I am excited to present "BayesMax" , an ambitious and advanced project that represents a deeply personal research interest I pursued during my undergraduate studies. Through this endeavor, I sought to maximize efficiency and performance across diverse domains, all while navigating the challenging landscape of my undergraduate education.
 
+My research journey is guided by an unwavering passion for the symbiotic realms of hyper-parameter optimization, Bayesian optimization, and parallel computing. These intertwined domains represent the convergence of theory and practical application in the realm of optimization and computational efficiency. Hyper-parameter optimization intrigues me with its intricate quest to strike the perfect balance between model complexity and generalization. Meanwhile, Bayesian optimization's foundation in probabilistic modeling and intelligent search strategies captivates me, offering a glimpse into the art of constructing surrogate models and optimizing costly objective functions. At the same time, parallel computing serves as the dynamic engine propelling my research ambitions forward, allowing me to explore scalable algorithms and orchestrate computational resources for maximum efficiency. Together, these research interests harmonize in a pursuit of enhanced optimization, not just in model parameters, but in the very process of optimization itself.
+
+so lets dive into the Project!
+
 ## Project Overview:
 
 At the core of BayesMax is the concept of Bayesian optimization, a sophisticated technique that constructs a posterior distribution of functions, often modeled as a Gaussian process. This distribution encapsulates the essence of the target function and continually improves as more observations are made. As a result, the algorithm becomes progressively certain about which regions within the parameter space merit exploration and which do not.
