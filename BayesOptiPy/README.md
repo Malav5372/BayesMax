@@ -1,7 +1,20 @@
+# BayesMax: Elevating Efficiency through Bayesian Exploration
+
+## Introduction:
+
+I am excited to present "BayesMax" , a project that represents a deeply personal research interest I pursued during my undergraduate studies. Through this endeavor, I sought to maximize efficiency and performance across diverse domains, all while navigating the challenging landscape of my undergraduate education.
+
+## Project Overview:
+
+At the core of BayesMax is the concept of Bayesian optimization, a sophisticated technique that constructs a posterior distribution of functions, often modeled as a Gaussian process. This distribution encapsulates the essence of the target function and continually improves as more observations are made. As a result, the algorithm becomes progressively certain about which regions within the parameter space merit exploration and which do not.
+
+BayesMax encapsulates my journey into the realm of Bayesian optimization, an innovative technique that combines the power of statistics and machine learning to maximize outcomes. At its core, this project leverages Gaussian processes, a robust tool for approximating and optimizing complex and costly objective functions.
+
+![image](https://github.com/Malav5372/BayesMax/assets/144440737/afadf501-ea7d-4e12-85ce-e7ca41cf2b1e)
 
 # Bayesian Optimization
 
-Pure Python implementation of bayesian global optimization with gaussian
+this project is a Pure Python implementation of bayesian global optimization with gaussian
 processes.
 
 This is a constrained global optimization package built upon bayesian inference
