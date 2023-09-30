@@ -175,7 +175,7 @@ When it's worthwhile to converge on an optimal point quickly rather than try to 
 
 ![sequential domain reduction](./examples/sdr.png)
 
-An example of using the `SequentialDomainReductionTransformer` is shown in the [domain reduction notebook](https://github.com/fmfn/BayesianOptimization/blob/master/examples/domain_reduction.ipynb). More information about this method can be found in the paper ["On the robustness of a simple domain reduction scheme for simulation‐based optimization"](http://www.truegrid.com/srsm_revised.pdf).
+An example of using the `SequentialDomainReductionTransformer` is shown in the [domain reduction notebook](https://github.com/Malav5372/BayesMax/blob/ff2d0a7c46e28323159a54a0d3bcd0f16690c0fd/BayesOptiPy/examples/domain_reduction.ipynb). More information about this method can be found in the paper ["On the robustness of a simple domain reduction scheme for simulation‐based optimization"](http://www.truegrid.com/srsm_revised.pdf).
 
 ## 3. Guiding the optimization
 
@@ -261,7 +261,7 @@ load_logs(new_optimizer, logs=["./logs.log"]);
 
 ## Next Steps
 
-This introduction covered the most basic functionality of the package. Checkout the [basic-tour](https://github.com/fmfn/BayesianOptimization/blob/master/examples/basic-tour.ipynb) and [advanced-tour](https://github.com/fmfn/BayesianOptimization/blob/master/examples/advanced-tour.ipynb) notebooks in the example folder, where you will find detailed explanations and other more advanced functionality. Also, browse the examples folder for implementation tips and ideas.
+This introduction covered the most basic functionality of the package. Checkout the [basic-tour](https://github.com/Malav5372/BayesMax/blob/a15b1d990e17b1a31c0fa96757aa420d7a947b1c/BayesOptiPy/examples/basic-tour.ipynb) and [advanced-tour](https://github.com/Malav5372/BayesMax/blob/dbde2fce62226b4b802d6b353ea732b7d2c89e98/BayesOptiPy/examples/advanced-tour.ipynb) notebooks in the example folder, where you will find detailed explanations and other more advanced functionality. Also, browse the examples folder for implementation tips and ideas.
 
 Installation
 ============
