@@ -48,8 +48,7 @@ As you iterate over and over, the algorithm balances its needs of exploration an
 
 This process is designed to minimize the number of steps required to find a combination of parameters that are close to the optimal combination. To do so, this method uses a proxy optimization problem (finding the maximum of the acquisition function) that, albeit still a hard problem, is cheaper (in the computational sense) and common tools can be employed. Therefore Bayesian Optimization is most adequate for situations where sampling the function to be optimized is a very expensive endeavor. See the references for a proper discussion of this method.
 
-This project is under active development, if you find a bug, or anything that
-needs correction, please let me know.
+if you find a bug, or anything that needs correction, please let me know.
 
 
 Basic tour of the Bayesian Optimization package
@@ -59,7 +58,7 @@ Basic tour of the Bayesian Optimization package
 
 This is a function optimization package, therefore the first and most important ingredient is, of course, the function to be optimized.
 
-**DISCLAIMER:** We know exactly how the output of the function below depends on its parameter. Obviously this is just an example, and you shouldn't expect to know it in a real scenario. However, it should be clear that you don't need to. All you need in order to use this package (and more generally, this technique) is a function `f` that takes a known set of parameters and outputs a real number.
+**DISCLAIMER:** I know exactly how the output of the function below depends on its parameter. Obviously this is just an example, and you shouldn't expect to know it in a real scenario. However, it should be clear that you don't need to. All you need in order to use this package (and more generally, this technique) is a function `f` that takes a known set of parameters and outputs a real number.
 
 
 ```python
@@ -268,7 +267,7 @@ Installation
 
 ### Installation
 
-If you prefer, you can clone it and run the setup.py file. Use the following
+feel free to clone it and run the setup.py file. Use the following
 commands to get a copy from Github and install all dependencies:
 
     git clone https://github.com/Malav5372/BayesMax.git
