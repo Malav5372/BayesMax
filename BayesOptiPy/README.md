@@ -25,7 +25,7 @@ to learn how to make the package more flexible, how to deal with categorical par
 [notebook](https://github.com/Malav5372/BayesMax/blob/d998dff2d424d21ba6e97ca6fdb612cdd7931117/BayesOptiPy/examples/visualization.ipynb)
 with a step by step visualization of how this method works.
 - To understand how to use bayesian optimization when additional constraints are present, see the
-[constrained optimization notebook](https://github.com/fmfn/BayesianOptimization/blob/master/examples/constraints.ipynb).
+[constrained optimization notebook](https://github.com/Malav5372/BayesMax/blob/7a2c41f3b72377b820b8569e9df75ccc92180bbd/BayesOptiPy/examples/constraints.ipynb).
 - Explore this [notebook](https://github.com/fmfn/BayesianOptimization/blob/master/examples/exploitation_vs_exploration.ipynb)
 exemplifying the balance between exploration and exploitation and how to
 control it.
