@@ -32,7 +32,7 @@ control it.
 - Go over this [script](https://github.com/Malav5372/BayesMax/blob/c39c22d22e0de1380437c4228c3d9791d7856d90/BayesOptiPy/examples/sklearn_example.py)
 for examples of how to tune parameters of Machine Learning models using cross validation and bayesian optimization.
 - Explore the [domain reduction notebook](https://github.com/Malav5372/BayesMax/blob/60aa14b03ca2bcb077136d75d9f990dbc492a951/BayesOptiPy/examples/domain_reduction.ipynb) to learn more about how search can be sped up by dynamically changing parameters' bounds.
-- Finally, take a look at this [script](https://github.com/fmfn/BayesianOptimization/blob/master/examples/async_optimization.py)
+- Finally, take a look at this [script](https://github.com/Malav5372/BayesMax/blob/215a049562211e146be21ce40717dc98d4d2223b/BayesOptiPy/examples/async_optimization.py)
 for ideas on how to implement bayesian optimization in a distributed fashion using this package.
 
 
