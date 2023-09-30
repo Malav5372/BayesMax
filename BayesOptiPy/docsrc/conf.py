@@ -28,7 +28,7 @@ for notebook in notebooks:
 # -- Project information -----------------------------------------------------
 
 project = 'Bayesian Optimization'
-author = 'Fernando Nogueira'
+author = 'Malav Pate;'
 
 
 # -- General configuration ---------------------------------------------------
