@@ -1,5 +1,7 @@
 # BayesMax: Achieving Efficiency through Bayesian Global Optimization with Gaussian Processes
 
+![image](https://github.com/Malav5372/BayesMax/assets/144440737/a2fdda04-c47f-43ec-8ac5-a09424d8bd55)
+
 ## Introduction:
 
 I am excited to present "BayesMax" , an ambitious and advanced project that represents a deeply personal research interest I pursued during my undergraduate studies. Through this endeavor, I sought to maximize efficiency and performance across diverse domains, all while navigating the challenging landscape of my undergraduate education.
@@ -46,8 +48,6 @@ Additional examples of acquisition functions are:
 3. Expected loss criterion
 
 Bayesian optimization, an innovative technique that combines the power of statistics and machine learning to maximize outcomes. At its core, this project leverages Gaussian processes, a robust tool for approximating and optimizing complex and costly objective functions.
-
-![image](https://github.com/Malav5372/BayesMax/assets/144440737/afadf501-ea7d-4e12-85ce-e7ca41cf2b1e)
 
 # Gaussian Processes
 Gaussian Processes (GPs) provide a rich and flexible class of non-parametric statistical models over function spaces with domains that can be continuous, discrete, mixed, or even hierarchical in nature. Furthermore, the GP provides not just information about the likely value of f, but importantly also about the uncertainty around that value.
