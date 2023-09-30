@@ -29,7 +29,7 @@ with a step by step visualization of how this method works.
 - Explore this [notebook](https://github.com/Malav5372/BayesMax/blob/154b4b4a113def195fa1bc71d220e1db9470dd65/BayesOptiPy/examples/exploitation_vs_exploration.ipynb)
 exemplifying the balance between exploration and exploitation and how to
 control it.
-- Go over this [script](https://github.com/fmfn/BayesianOptimization/blob/master/examples/sklearn_example.py)
+- Go over this [script](https://github.com/Malav5372/BayesMax/blob/c39c22d22e0de1380437c4228c3d9791d7856d90/BayesOptiPy/examples/sklearn_example.py)
 for examples of how to tune parameters of Machine Learning models using cross validation and bayesian optimization.
 - Explore the [domain reduction notebook](https://github.com/fmfn/BayesianOptimization/blob/master/examples/domain_reduction.ipynb) to learn more about how search can be sped up by dynamically changing parameters' bounds.
 - Finally, take a look at this [script](https://github.com/fmfn/BayesianOptimization/blob/master/examples/async_optimization.py)
