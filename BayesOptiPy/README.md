@@ -8,14 +8,6 @@ I am excited to present "BayesMax" , an ambitious and advanced project that repr
 
 so lets dive into the Project!
 
-## Concepts and Overview:
-
-In certain applications the objective function is expensive or difficult to evaluate. In these situations, a general approach consists in creating a simpler surrogate model of the objective function which is cheaper to evaluate and will be used instead to solve the optimization problem. Moreover, due to the high cost of evaluating the objective function, an iterative approach is often recommended. Iterative optimizers work by iteratively requesting evaluations of the function at a sequence of points in the domain. Bayesian Optimization adds a Bayesian methodology to the iterative optimizer paradigm by incorporating a prior model on the space of possible target functions. 
-
-At the core of BayesMax is the concept of Bayesian optimization, a sophisticated technique that constructs a posterior distribution of functions, often modeled as a Gaussian process. This distribution encapsulates the essence of the target function and continually improves as more observations are made. As a result, the algorithm becomes progressively certain about which regions within the parameter space merit exploration and which do not.
-
-Bayesian optimization, an innovative technique that combines the power of statistics and machine learning to maximize outcomes. At its core, this project leverages Gaussian processes, a robust tool for approximating and optimizing complex and costly objective functions.
-
 # Bayesian Optimization
 
 this project is a Pure Python implementation of bayesian global optimization with gaussian
