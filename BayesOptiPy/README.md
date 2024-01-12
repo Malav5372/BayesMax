@@ -1,4 +1,4 @@
-# BayesMax: Achieving Efficiency through Bayesian Global Optimization with Gaussian Processes
+## BayesMax: Achieving Efficiency through Bayesian Global Optimization with Gaussian Processes
 
 ![image](https://github.com/Malav5372/BayesMax/assets/144440737/a2fdda04-c47f-43ec-8ac5-a09424d8bd55)
 
